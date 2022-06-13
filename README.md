@@ -1,4 +1,3 @@
-# RESTapis
 
 Statistics via RESTful APIs
 ===========================
