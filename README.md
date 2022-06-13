@@ -34,7 +34,7 @@ In terminal run the following **commands**:
 Add a new variable:
 --------------------
 
-5. ``curl -X POST “http://localhost:8080/numbers?new=123”``
+5. ``curl -X POST “http://localhost:8080/numbers?new= (any integer) ”``
 
 
 The following can be used to get statitics from RESTful API:
