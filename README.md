@@ -22,5 +22,5 @@ In terminal run the following **commands**:
 1. **sudo apt-get update** (check for any updates)
 2. **sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin** (install Docker Engine)
 3. **docker build --file Dockerfile -t ANYTAG .**
-4. **docker run -d -p 12000:22 ANYTAG:latest**
+4. **docker run -d -p localhost:5000 ANYTAG:latest**
 
