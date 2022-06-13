@@ -18,7 +18,7 @@ Usage
 The Dockerfile builds an image which will launch the RESTful APIs 
 
 In terminal run the following **commands**:
---------------------------------------------
+-------------------------------------------
 
 (check for any updates)
 1. ``sudo apt-get update``
