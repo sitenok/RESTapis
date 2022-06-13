@@ -24,6 +24,7 @@ In terminal run the following **commands**:
 1. ``sudo apt-get update``
 
 (install Docker Engine)
+
 2. ``sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin``
   
 3. ``docker build --file Dockerfile -t ANYTAG .``
@@ -34,7 +35,7 @@ In terminal run the following **commands**:
 Add a new variable:
 --------------------
 
-5. ``curl -X POST “http://localhost:8080/numbers?new= (any integer) ”``
+5. ``curl -X POST “http://localhost:8080/numbers?new=(any integer)”``
 
 
 The following can be used to get statitics from RESTful API:
