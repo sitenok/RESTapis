@@ -20,19 +20,19 @@ The Dockerfile builds an image which will launch the RESTful APIs
 In terminal run the following **commands**:
 --------------------------------------------
 
-1. **sudo apt-get update** (check for any updates)
-2. **sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin** (install Docker Engine)
-3. **docker build --file Dockerfile -t ANYTAG .**
-4. **docker run -d -p 8080:8080 ANYTAG:latest**
+1. > **sudo apt-get update** (check for any updates)
+2. > **sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin** (install Docker Engine)
+3. > **docker build --file Dockerfile -t ANYTAG .**
+4. > **docker run -d -p 8080:8080 ANYTAG:latest**
 
 Add a new variable:
 --------------------
 
-5. **curl -X POST “http://localhost:8080/numbers?new=123”**
+5. ``**curl -X POST “http://localhost:8080/numbers?new=123”**``
 
 The following can be used to get statitics from RESTful API:
 -----------------------------------------------------------------
 
-6. **curl -X GET “http://localhost:8080/numbers/average”**
-7. **curl -X GET “http://localhost:8080/numbers/sum”**
-8. **curl -X GET “http://localhost:8080/numbers/stddev”**
+6. ``**curl -X GET “http://localhost:8080/numbers/average”**``
+7. ``**curl -X GET “http://localhost:8080/numbers/sum”**``
+8. ``**curl -X GET “http://localhost:8080/numbers/stddev”**``
